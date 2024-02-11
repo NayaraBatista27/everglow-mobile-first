@@ -11,7 +11,7 @@
   --branco: #fff;
   --preto: #000;
 
-  --sombra: ;
+  --sombra-preto-transparente: rgba(0, 0, 0, 0.321);
 
   /* FONTE */
   --fonte-principal: "Merriweather", serif;
@@ -49,23 +49,22 @@ body {
 /* nav -> toda a seção do menu*/
 .nav {
   background-color: var(--creme);
-  padding: 0.4em;
+  padding: 0.3em 7em;
 }
 
 /* ul -> cria a lista*/
 .nav_lista {
-  font-size: 0.7rem;
+  font-size: 1.5em;
   list-style-type: none;
 }
 
 /* li -> items do menu*/
 .nav_item {
-  border: 1px solid rgba(0, 0, 0, 0.504);
+  border: 2px solid rgba(0, 0, 0, 0.504);
   border-radius: 20px;
-  box-shadow: 1px 1px 1px 0px rgba(0, 0, 0, 0.825);
   text-align: center;
   padding: 0.2em;
-  margin: 4px 35px;
+  margin: 7px auto;
 }
 
 /* <a> links que estão dentro do item <li>*/
@@ -84,9 +83,7 @@ body {
 /* main -> todo corpo da página*/
 .container {
   background-color: var(--verde);
-  /*
-  box-shadow: inset 0px 4px 20px 0px rgba(0, 0, 0, 0.331);
-  */
+  box-shadow: inset 0px 20px 20px 0px var(--sombra-preto-transparente);
 }
 
 /* títulos de maiores destaques, como h1 e h2*/
@@ -94,7 +91,7 @@ body {
   color: var(--branco);
   text-align: center;
   padding: 1.2em;
-  font-size: 1em;
+  font-size: 2em;
   font-weight: 700;
 }
 
@@ -102,9 +99,8 @@ body {
 .texto {
   color: var(--branco);
   text-align: center;
-  padding: 0.2em 1em;
-  font-size: 0.8em;
-  font-weight: 300;
+  padding: 0.2em 2em;
+  font-size: 1.5em;
 }
 
 /* h3 com overline*/
@@ -112,7 +108,9 @@ body {
   color: var(--branco);
   text-align: center;
   text-decoration: overline;
-  padding: 1.2em;
+  padding: 2.3em 0 0.7em 0;
+  font-size: 2em;
+  text-transform: uppercase;
 }
 
 /* links de informação que levam a páginas externas*/
@@ -137,14 +135,15 @@ abbr {
   justify-content: center;
 }
 
-/* video do YouTube*/
+/* video do YouTube
 .video_slay {
 }
+*/
 
 .players-spotify {
   margin: auto;
-  width: 80vw;
-  padding-bottom: 2rem;
+  width: 60vw;
+  padding-bottom: 4rem;
 }
 
 .player {
@@ -152,17 +151,17 @@ abbr {
 }
 
 .titulo-album {
-  font-size: 0.7rem;
-  padding-top: 1.5rem;
-  padding-bottom: 0.5rem;
+  font-size: 1.5em;
+  margin: 1.5em 0 0.5em 0;
   text-align: center;
 }
 
+/* faixa de submenu rodapé */
 .redes-sociais {
-  background-color: var(--creme-menu);
+  background-color: var(--creme);
   display: flex;
   justify-content: space-around;
-  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.618);
+  box-shadow: 0px -20px 20px 0px var(--sombra-preto-transparente);
 }
 
 .redes-sociais > a {
@@ -170,23 +169,24 @@ abbr {
 }
 
 .redes-sociais > a > img {
-  width: 35px;
-  height: 35px;
-  padding: 5px;
+  width: 100%;
+  margin: 0.7em 0;
 }
 
 .rodape {
-  padding: 0 2rem;
-  display: flex;
   background-color: black;
-  height: 40px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
 }
 
 .texto-rodape {
-  margin: 0 auto;
-  text-align: center;
-  display: flex;
-  align-items: center;
+  color: var(--branco);
+  font-size: 1.3em;
+}
+
+.logo-rodape {
+  width: 40%;
 }
 
 /*---------- INTEGRANTES ----------------------------------------------------*/
