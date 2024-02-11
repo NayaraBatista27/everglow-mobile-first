@@ -189,6 +189,42 @@ abbr {
   width: 40%;
 }
 
+@media screen and (min-width: 320px) and (max-width: 480px) {
+  .nav {
+    padding: 0.2em 4em;
+  }
+  .nav_lista {
+    font-size: 1em;
+  }
+
+  .titulo {
+    font-size: 1.8em;
+    padding: 1em;
+  }
+
+  .texto {
+    font-size: 1.2em;
+    padding: 0.2em 1em;
+  }
+
+  .texto_secundario {
+    font-size: 1.8em;
+    padding: 1em;
+  }
+
+  .titulo-album {
+    font-size: 1em;
+  }
+
+  .redes-sociais > a > img {
+    width: 80%;
+    margin: 0.3em;
+  }
+
+  .texto-rodape {
+    font-size: 0.8em;
+  }
+}
 /*---------- INTEGRANTES ----------------------------------------------------*/
 
 .content {
