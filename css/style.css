@@ -91,7 +91,7 @@ body {
   color: var(--branco);
   text-align: center;
   padding: 1.2em;
-  font-size: 2em;
+  font-size: 2.2em;
   font-weight: 700;
 }
 
@@ -100,7 +100,7 @@ body {
   color: var(--branco);
   text-align: center;
   padding: 0.2em 2em;
-  font-size: 1.5em;
+  font-size: 1.9em;
 }
 
 /* h3 com overline*/
@@ -109,7 +109,7 @@ body {
   text-align: center;
   text-decoration: overline;
   padding: 2.3em 0 0.7em 0;
-  font-size: 2em;
+  font-size: 2.2em;
   text-transform: uppercase;
 }
 
@@ -142,7 +142,7 @@ abbr {
 
 .players-spotify {
   margin: auto;
-  width: 60vw;
+  width: 80vw;
   padding-bottom: 4rem;
 }
 
@@ -151,7 +151,7 @@ abbr {
 }
 
 .titulo-album {
-  font-size: 1.5em;
+  font-size: 1.7em;
   margin: 1.5em 0 0.5em 0;
   text-align: center;
 }
