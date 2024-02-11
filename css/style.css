@@ -189,6 +189,7 @@ abbr {
   width: 40%;
 }
 
+/* pequeno ajuste para telas menores */
 @media screen and (min-width: 320px) and (max-width: 480px) {
   .nav {
     padding: 0.2em 4em;
@@ -224,7 +225,18 @@ abbr {
   .texto-rodape {
     font-size: 0.8em;
   }
+
+  .logo-rodape,
+  a {
+    width: 40px;
+  }
 }
+
+/* telas médias como tablets */
+
+@media screen and (min-width: 1024px) {
+}
+
 /*---------- INTEGRANTES ----------------------------------------------------*/
 
 .content {
