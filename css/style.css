@@ -1,4 +1,6 @@
 @import url("integrantes.css");
+@import url("clipes.css");
+@import url("curiosidades.css");
 
 :root {
   /* CORES */
@@ -8,6 +10,7 @@
   --creme-claro: #f3dfcc;
   --branco: #fff;
   --preto: #000;
+  --cinza: rgb(40, 40, 40);
 
   --sombra-preto-transparente: rgba(0, 0, 0, 0.321);
 
@@ -27,10 +30,11 @@
 }
 
 body {
+  background-color: var(--verde);
   font-family: var(--fonte-principal);
-  color: var(--branco);
-  font-size: 16px;
-  font-weight: 300;
+  /* color: var(--branco); */
+  /* font-size: 16px; */
+  /* font-weight: 300; */
 }
 
 /* header -> imagem e menu*/
@@ -47,26 +51,27 @@ body {
 /* nav -> toda a seção do menu*/
 .nav {
   background-color: var(--creme);
-  padding: 0.2em 4em;
+  padding: 0.2rem 1rem;
 }
 
 /* ul -> cria a lista*/
 .nav_lista {
-  font-size: 1em;
+  font-size: 1.2rem;
   list-style-type: none;
 }
 
-/* li -> items do menu*/
+/* li -> itens do menu*/
 .nav_item {
   border: 2px solid rgba(0, 0, 0, 0.504);
   border-radius: 20px;
   text-align: center;
-  padding: 0.2em;
+  padding: 0.2rem;
   margin: 7px auto;
 }
 
 /* <a> links que estão dentro do item <li>*/
 .nav_txt {
+  display: block;
   width: 100%;
   color: var(--preto);
   text-decoration: none;
@@ -80,16 +85,16 @@ body {
 
 /* main -> todo corpo da página*/
 .container {
-  background-color: var(--verde);
-  box-shadow: inset 0px 20px 20px 0px var(--sombra-preto-transparente);
+  /* background-color: var(--verde); */
+  box-shadow: inset 0px 0px 20px 10px var(--sombra-preto-transparente);
 }
 
 /* títulos de maiores destaques, como h1 e h2*/
 .titulo {
   color: var(--branco);
   text-align: center;
-  padding: 1em;
-  font-size: 1.8em;
+  padding: 1rem;
+  font-size: 1.8rem;
   font-weight: 700;
 }
 
@@ -97,8 +102,8 @@ body {
 .texto {
   color: var(--branco);
   text-align: center;
-  padding: 0.2em 1em;
-  font-size: 1.2em;
+  padding: 0.2rem 1rem;
+  font-size: 1.1rem;
 }
 
 /* h3 com overline*/
@@ -135,15 +140,17 @@ abbr {
 
 .players-spotify {
   margin: auto;
-  width: 80vw;
-  padding-bottom: 4rem;
+  width: 90vw;
+  padding-bottom: 3rem;
 }
 
 .player {
   box-shadow: 0px 0px 20px 0px rgba(202, 202, 202, 0.46);
+  margin-bottom: 2rem;
 }
 
 .titulo-album {
+  color: var(--branco);
   font-size: 1em;
   margin: 1.5em 0 0.5em 0;
   text-align: center;
@@ -153,8 +160,7 @@ abbr {
 .redes-sociais {
   background-color: var(--creme);
   display: flex;
-  justify-content: space-around;
-  box-shadow: 0px -20px 20px 0px var(--sombra-preto-transparente);
+  justify-content: space-evenly;
 }
 
 .redes-sociais > a {
@@ -162,20 +168,21 @@ abbr {
 }
 
 .redes-sociais > a > img {
-  width: 80%;
-  margin: 0.3em;
+  width: 90%;
+  margin: 0.5rem;
 }
 
 .rodape {
   background-color: black;
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
+  gap: 20px;
 }
 
 .texto-rodape {
   color: var(--branco);
-  font-size: 0.8em;
+  font-size: 0.7rem;
 }
 
 .logo-rodape,

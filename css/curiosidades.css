@@ -1,0 +1,60 @@
+.titulo {
+}
+
+.destaque {
+  font-style: italic;
+  text-decoration: underline;
+}
+
+.secao__fotos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.fotos__tour__unicef {
+  width: 90%;
+  margin: 20px;
+  border-radius: 20px;
+  border: 1.7px solid rgb(140, 140, 140);
+  box-shadow: 0px 0px 20px 10px var(--sombra-preto-transparente);
+}
+
+.foto-sumir {
+  display: none;
+}
+
+.link__promise,
+.link__lmd {
+  text-decoration: none;
+  color: var(--branco);
+}
+
+.link__unicef,
+.link__drama,
+.link__fatrat {
+  color: var(--branco);
+}
+
+.ost {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ost > .texto {
+  margin: -0.8rem;
+  width: 50%;
+}
+
+.img__ost {
+  width: 60%;
+  border-radius: 20px;
+  border: 1.7px solid rgb(140, 140, 140);
+  box-shadow: 0px 0px 20px 10px var(--sombra-preto-transparente);
+}
+
+.iframe__ghostlight {
+  display: flex;
+  margin: 1.5rem auto 2rem;
+}
