@@ -190,8 +190,8 @@ a {
   width: 40px;
 }
 
-/* telas médias como tablets */
-@media screen and (min-width: 576px) {
+/* telas médias como tablets 576px */
+@media screen and (min-width: 450px) {
   .nav {
     padding: 0.3em 7em;
   }
