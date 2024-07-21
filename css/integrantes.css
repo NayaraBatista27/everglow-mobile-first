@@ -11,21 +11,21 @@
   border: 1.7px solid rgb(140, 140, 140);
   border-radius: 3%;
   box-shadow: 13px 14px 10px 0px var(--sombra-preto-transparente);
-  margin-bottom: 3.3rem;
+  margin: 3rem 4rem 6rem 4rem;
 }
 
 .foto_preto {
   border: 1.7px solid rgb(140, 140, 140);
-  margin: 10px;
-  width: 90%;
+  margin-top: 30px;
+  width: 80%;
   border-radius: 5%;
 }
 
 .texto-descricao {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   color: var(--branco);
   text-align: center;
-  padding: 0 0.3rem 1rem 0.3rem;
+  padding: 2rem 4rem;
 }
 
 .maknae {

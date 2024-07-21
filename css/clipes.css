@@ -24,6 +24,7 @@
 }
 
 .descricao__mv {
+  font-size: 1.8rem;
   color: var(--cinza);
   text-transform: uppercase;
   font-weight: 600;
@@ -32,6 +33,6 @@
 .descricao__yt {
   color: var(--cinza);
   font-weight: 200;
-  font-size: 0.8rem;
+  font-size: 1.5rem;
   margin-bottom: 2rem;
 }
